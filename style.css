@@ -165,7 +165,8 @@ span {
     position: fixed;
     bottom: 0;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
